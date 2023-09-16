@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Практична№1</title>
+    <style>
+        header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 25px 0 black;
+    padding-left: 10px;
+}
+
+header * {
+    display: inline;
+}
+
+header li {
+    margin: 20px;
+}
+
+header li a {
+    color: black;
+    text-decoration: none;
+}
+
+footer{
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 25px 0 black;
+    justify-content: space-around;
+}
+
+section {
+    position: relative;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 75dvh;
+}
+.informationPage {
+    flex-direction: column;
+}
+
+tr:first-child, #time{
+    background-color: rgb(0, 173, 173);
+    color: white;
+    text-align: center;
+}
+.trClasses {
+    height: 50px;
+    border: 1px solid rgb(175, 173, 173);
+    text-align: center;
+    background-color: rgb(170, 235, 170);
+}
+.trClassesPractice {
+    height: 50px;
+    border: 1px solid rgb(175, 173, 173);
+    text-align: center;
+    background-color: rgb(229, 235, 170);
+}
+tr:last-child {
+    background-color: rgb(235, 180, 170);
+    text-align: center;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h2>Особистий веб-сайт Ляшенка Ярослава</h2>
+        <nav>
+            <ul>
+                <li><a href="Головна.html">Головна</a></li>
+                <li><a href="Про-мене.html">Про мене</a></li>
+                <li><a href="Практичні-роботи.html">Практичні роботи</a></li>
+                <li><a href="Лабораторні-заняття.html">Лабораторні заняття</a></li>
+            </ul>
+        </nav>
+    </header>
+<section>
+        <table class="iksweb">
+            <tbody>
+                <tr>
+                    <td>Тиждень</td>
+                    <td>18.09.2023</td>
+                    <td>19.09.2023</td>
+                    <td>20.09.2023</td>
+                    <td>21.09.2023</td>
+                    <td>22.09.2023</td>
+                </tr>
+                <tr class="trClasses">
+                    <td>1 пара</td>
+                    <td>Пара відсутня</td>
+                    <td>Пара відсутня</td>
+                    <td>Пара відсутня</td>
+                    <td>Пара відсутня</td>
+                    <td>Пара відсутня</td>
+                </tr>
+                <tr class="trClasses">
+                    <td>2 пара</td>
+                    <td>Пара відсутня</td>
+                    <td>ООП С#</td>
+                    <td>Веб-технології та Веб-дизайн</td>
+                    <td>ДО</td>
+                    <td>Пара відсутня</td>
+                </tr>
+                <tr class="trClasses">
+                    <td>3 пара</td>
+                    <td>ООП С#</td>
+                    <td>ІМ</td>
+                    <td>ВМ</td>
+                    <td>Пара відсутня</td>
+                    <td>ПППІ</td>
+                </tr>
+                <tr class="trClasses">
+                    <td>4 пара</td>
+                    <td>Пара відсутня</td>
+                    <td>ІМ</td>
+                    <td>Пара відсутня</td>
+                    <td>Пара відсутня</td>
+                    <td>ДО</td>
+                </tr>
+                <tr class="trClasses">
+                    <td>5 пара</td>
+                    <td>Пара відсутня</td>
+                    <td>ВМ</td>
+                    <td>Пара відсутня</td>
+                    <td>Пара відсутня</td>
+                    <td>ПППІ</td>
+                </tr>
+                <tr class="trClasses">
+                    <td>6 пара</td>
+                    <td>ВМ</td>
+                    <td>Пара відсутня</td>
+                    <td>Пара відсутня</td>
+                    <td>Пара відсутня</td>
+                    <td>Пара відсутня</td>
+                </tr>
+                <tr id="time">
+                    <td>Тиждень</td>
+                    <td>25.09.2023</td>
+                    <td>26.09.2023</td>
+                    <td>27.09.2023</td>
+                    <td>28.09.2023</td>
+                    <td>29.09.2023</td>
+                </tr>
+                <tr>
+                    <td>Error</td>
+                    <td>Error</td>
+                    <td>Error</td>
+                    <td>Error</td>
+                    <td>Error</td>
+                    <td>Error</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>   
+ <footer>
+        <p>Контактні дані студента: Ляшенко Ярослав, +38063503хххх, lyashenkoyaroslavb@gmail.com</p>
+        <p>Роки навчання: 2022 - 2026</p>
+        <p><a href="https://github.com/XyaroslavX">GitHub</a></p>
+    </footer>
+</body>
+</html>
