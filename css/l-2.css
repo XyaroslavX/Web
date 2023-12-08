@@ -1,0 +1,116 @@
+li:first-child {
+    font-weight: bold;
+}
+
+a:last-child {
+    color: red;
+}
+
+input:disabled {
+    background-color: grey;
+}
+
+div > p {
+    font-weight: 600;
+}
+
+a[href^="https"] {
+    color: green;
+}
+
+input[type="text"] {
+    border: 1px solid blue;
+}
+
+li:first-child, li:last-child {
+    font-size: 24px;
+}
+
+div p {
+    font-size: 16px;
+}
+
+input:checked {
+    background-color: lightblue;
+}
+
+li > a {
+    text-decoration: underline;
+}
+
+li:nth-child(even) {
+    font-weight: bold;
+}
+
+input[type="text"]:not([disabled]) {
+    background-color: gray;
+}
+
+*:first-child > p {
+    font-size: 24px;
+}
+
+.special + li {
+    text-decoration: line-through;
+}
+
+p::first-letter {
+    font-size: 36px;
+}
+
+a::after {
+    content: " (link)";
+}
+
+header {
+            background-color: #333;
+            color: white;
+            padding: 0px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+        }
+
+        header ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        header ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        header a {
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+            font-weight: bold;
+        }
+
+footer {
+            background-color: #333;
+            color: white;
+            padding: -30px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+display: flex; 
+    justify-content: flex-start; 
+    align-items: center; 
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+        }
+
+        footer a:hover {
+            color: #007BFF;
+        }
