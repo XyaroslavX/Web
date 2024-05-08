@@ -61,7 +61,6 @@ h1 {
 <div class="header">
     	<li><a href="https://xyaroslavx.github.io/Web/
 index.html">Головна</a></li>
-
     <li><a href="https://xyaroslavx.github.io/Web/html/
 Calculator.html">Калькулятор</a></li>
     <li><a href="https://xyaroslavx.github.io/Web/html/
@@ -96,10 +95,8 @@ function fetchExchangeRates() {
     .catch(error => console.error('Помилка отримання даних про курс валют:', error));
 }
 
-// Оновлюємо курс валют кожні 10 секунд
 setInterval(fetchExchangeRates, 10000);
 
-// Викликаємо функцію fetchExchangeRates для завантаження даних при завантаженні сторінки
 fetchExchangeRates();
 </script>
 
