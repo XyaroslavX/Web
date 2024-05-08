@@ -5,7 +5,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Калькулятор</title>
 <style>
-    /* Стилі для навігаційного меню */
     .header {
         background-color: #333;
         padding: 10px;
@@ -36,7 +35,7 @@
         align-items: center;
         min-height: 100vh;
         margin: 0;
-        padding-top: 50px; /* Простір для навігаційного меню */
+        padding-top: 50px; 
     }
     .calculator {
         width: 300px;
@@ -52,7 +51,7 @@
         font-size: 24px;
         border-radius: 5px;
         border: none;
-        background: linear-gradient(to right, #551a8b, #8b008b); /* Purple gradient */
+        background: linear-gradient(to right, #551a8b, #8b008b); 
         color: #fff;
     }
     .calculator input[type="button"] {
@@ -62,12 +61,12 @@
         font-size: 20px;
         border-radius: 5px;
         border: 1px solid #000;
-        background-color: #4CAF50; /* Green */
+        background-color: #4CAF50; 
         color: #fff;
         cursor: pointer;
     }
     .calculator input[type="button"]:hover {
-        background-color: #45a049; /* Darker green on hover */
+        background-color: #45a049; 
     }
     .calculator .row {
         display: flex;
@@ -81,9 +80,14 @@
 <body>
 
 <div class="header">
-    <a href="Index.html">Головна</a>
-    <a href="valet.html">Valet</a>
-    <a href="lessons_schedule.html">Розклад уроків</a>
+	<li><a href="https://xyaroslavx.github.io/Web/
+Index.html">Калькулятор</a></li>
+    <li><a href="https://xyaroslavx.github.io/Web/html/
+Calculator.html">Калькулятор</a></li>
+    <li><a href="https://xyaroslavx.github.io/Web/html/
+valet.html">Курс валют</a></li>
+    <li><a href="https://xyaroslavx.github.io/Web/html/
+lessons_schedule.html">Розклад</a></li>
 </div>
 
 <div class="calculator">
@@ -129,7 +133,7 @@
         try {
             result = eval(expression);
             if (result === 0) {
-                clearDisplay(); // Очищення поля вводу, якщо результат - 0
+                clearDisplay(); 
             } else {
                 document.getElementById('display').value = result;
             }
